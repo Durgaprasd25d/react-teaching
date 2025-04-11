@@ -1,11 +1,17 @@
 import React from "react";
-import Lucky from "./components/Lucky";
+// import Counter from "./components/Counter";
+import Toggle from "./components/Toggle";
+import LikeButton from "./components/Like";
+// import Lucky from "./components/Lucky";
+// import Naz from "./components/Naz";
 const App = () => {
   return (
     <div>
-      <Lucky name="Lucky" />
-      <Lucky name="Roja" />
-      <Lucky name="Naz" />
+      {/* <Lucky/> */}
+      {/* <Naz/> */}
+      {/* <Toggle /> */}
+      {/* <Counter /> */}
+      <LikeButton/>
     </div>
   );
 };
